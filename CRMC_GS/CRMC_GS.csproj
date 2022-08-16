@@ -1,0 +1,443 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{26C44394-3A79-4773-A9D1-99FD5D3BE5A7}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>CRMC_GS</RootNamespace>
+    <AssemblyName>CRMC_GS</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>
+    </TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="CrystalDecisions.CrystalReports.Engine, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.ReportSource, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.Shared, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.Windows.Forms, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="FlashControlV71, Version=1.0.3187.32366, Culture=neutral, PublicKeyToken=692fbea5521e1304" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AdminBECE_Pros.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AdminBECE_Pros.Designer.cs">
+      <DependentUpon>AdminBECE_Pros.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AdminBSE-Filipino_Pros.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AdminBSE-Filipino_Pros.Designer.cs">
+      <DependentUpon>AdminBSE-Filipino_Pros.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AdminBSE-MATH_Pros.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AdminBSE-MATH_Pros.Designer.cs">
+      <DependentUpon>AdminBSE-MATH_Pros.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AdminBSIT_Pros.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AdminBSIT_Pros.Designer.cs">
+      <DependentUpon>AdminBSIT_Pros.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AdminBSMA_Pros.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AdminBSMA_Pros.Designer.cs">
+      <DependentUpon>AdminBSMA_Pros.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AdminBSTM_Pros.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AdminBSTM_Pros.Designer.cs">
+      <DependentUpon>AdminBSTM_Pros.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AdminConfirmSplit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AdminConfirmSplit.Designer.cs">
+      <DependentUpon>AdminConfirmSplit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AdminConfirmUpdate.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AdminConfirmUpdate.Designer.cs">
+      <DependentUpon>AdminConfirmUpdate.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AdminDeleteFailed.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AdminDeleteFailed.Designer.cs">
+      <DependentUpon>AdminDeleteFailed.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AdminPrintPros.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AdminPrintPros.Designer.cs">
+      <DependentUpon>AdminPrintPros.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AdminScheduleView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AdminScheduleView.Designer.cs">
+      <DependentUpon>AdminScheduleView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AdminSelectCourse.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AdminSelectCourse.Designer.cs">
+      <DependentUpon>AdminSelectCourse.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AdminCRIMINOLOGY_Pros.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AdminCRIMINOLOGY_Pros.Designer.cs">
+      <DependentUpon>AdminCRIMINOLOGY_Pros.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AdminBA_Pros.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AdminBA_Pros.Designer.cs">
+      <DependentUpon>AdminBA_Pros.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AdminBSA_Pros.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AdminBSA_Pros.Designer.cs">
+      <DependentUpon>AdminBSA_Pros.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AdminBSHM-FB_Pros.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AdminBSHM-FB_Pros.Designer.cs">
+      <DependentUpon>AdminBSHM-FB_Pros.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AdminBSHM_Pros.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AdminBSHM_Pros.Designer.cs">
+      <DependentUpon>AdminBSHM_Pros.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AdminBSE-ENGLISH_Pros.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AdminBSE-ENGLISH_Pros.Designer.cs">
+      <DependentUpon>AdminBSE-ENGLISH_Pros.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AdminBSE-SCIENCE_Pros.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AdminBSE-SCIENCE_Pros.Designer.cs">
+      <DependentUpon>AdminBSE-SCIENCE_Pros.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AdminBSE-ST_Pros.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AdminBSE-ST_Pros.Designer.cs">
+      <DependentUpon>AdminBSE-ST_Pros.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AdminSubject.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AdminSubject.Designer.cs">
+      <DependentUpon>AdminSubject.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AdminTeacherShedConfirm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AdminTeacherShedConfirm.Designer.cs">
+      <DependentUpon>AdminTeacherShedConfirm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CCSPrint.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CCSPrint.Designer.cs">
+      <DependentUpon>CCSPrint.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CrystalReport1.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CrystalReport1.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="frmAdminMain.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmAdminMain.Designer.cs">
+      <DependentUpon>frmAdminMain.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmLogin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmLogin.Designer.cs">
+      <DependentUpon>frmLogin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmStudents.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmStudents.Designer.cs">
+      <DependentUpon>frmStudents.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmTeachers.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmTeachers.Designer.cs">
+      <DependentUpon>frmTeachers.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="AdminPSYCHOLOGY_Pros.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AdminPSYCHOLOGY_Pros.Designer.cs">
+      <DependentUpon>AdminPSYCHOLOGY_Pros.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TeacherGrading.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TeacherGrading.Designer.cs">
+      <DependentUpon>TeacherGrading.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TeacherMain.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TeacherMain.Designer.cs">
+      <DependentUpon>TeacherMain.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TeacherSplit2StransferStudents.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TeacherSplit2StransferStudents.Designer.cs">
+      <DependentUpon>TeacherSplit2StransferStudents.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TeacherSplitStrangerStudents.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TeacherSplitStrangerStudents.Designer.cs">
+      <DependentUpon>TeacherSplitStrangerStudents.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TeachersRoomSchedule.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TeachersRoomSchedule.Designer.cs">
+      <DependentUpon>TeachersRoomSchedule.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TeacherStudentsINC.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TeacherStudentsINC.Designer.cs">
+      <DependentUpon>TeacherStudentsINC.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TeacherTransferStudentSched.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TeacherTransferStudentSched.Designer.cs">
+      <DependentUpon>TeacherTransferStudentSched.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TeacherUpdateINC.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TeacherUpdateINC.Designer.cs">
+      <DependentUpon>TeacherUpdateINC.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TeacherUpdateSched.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TeacherUpdateSched.Designer.cs">
+      <DependentUpon>TeacherUpdateSched.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TeacherUpdateTranferStudents.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TeacherUpdateTranferStudents.Designer.cs">
+      <DependentUpon>TeacherUpdateTranferStudents.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="AdminBECE_Pros.resx">
+      <DependentUpon>AdminBECE_Pros.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AdminBSE-ENGLISH_Pros.resx">
+      <DependentUpon>AdminBSE-ENGLISH_Pros.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AdminBSE-Filipino_Pros.resx">
+      <DependentUpon>AdminBSE-Filipino_Pros.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AdminBSE-MATH_Pros.resx">
+      <DependentUpon>AdminBSE-MATH_Pros.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AdminBSIT_Pros.resx">
+      <DependentUpon>AdminBSIT_Pros.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AdminBSMA_Pros.resx">
+      <DependentUpon>AdminBSMA_Pros.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AdminBSTM_Pros.resx">
+      <DependentUpon>AdminBSTM_Pros.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AdminConfirmSplit.resx">
+      <DependentUpon>AdminConfirmSplit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AdminConfirmUpdate.resx">
+      <DependentUpon>AdminConfirmUpdate.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AdminCRIMINOLOGY_Pros.resx">
+      <DependentUpon>AdminCRIMINOLOGY_Pros.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AdminDeleteFailed.resx">
+      <DependentUpon>AdminDeleteFailed.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AdminPrintPros.resx">
+      <DependentUpon>AdminPrintPros.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AdminScheduleView.resx">
+      <DependentUpon>AdminScheduleView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AdminSelectCourse.resx">
+      <DependentUpon>AdminSelectCourse.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AdminBA_Pros.resx">
+      <DependentUpon>AdminBA_Pros.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AdminBSA_Pros.resx">
+      <DependentUpon>AdminBSA_Pros.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AdminBSHM-FB_Pros.resx">
+      <DependentUpon>AdminBSHM-FB_Pros.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AdminBSHM_Pros.resx">
+      <DependentUpon>AdminBSHM_Pros.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AdminBSE-SCIENCE_Pros.resx">
+      <DependentUpon>AdminBSE-SCIENCE_Pros.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AdminBSE-ST_Pros.resx">
+      <DependentUpon>AdminBSE-ST_Pros.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AdminSubject.resx">
+      <DependentUpon>AdminSubject.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AdminTeacherShedConfirm.resx">
+      <DependentUpon>AdminTeacherShedConfirm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CCSPrint.resx">
+      <DependentUpon>CCSPrint.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CrystalReport1.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>CrystalReport1.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmAdminMain.resx">
+      <DependentUpon>frmAdminMain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmLogin.resx">
+      <DependentUpon>frmLogin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmStudents.resx">
+      <DependentUpon>frmStudents.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmTeachers.resx">
+      <DependentUpon>frmTeachers.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="AdminPSYCHOLOGY_Pros.resx">
+      <DependentUpon>AdminPSYCHOLOGY_Pros.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TeacherGrading.resx">
+      <DependentUpon>TeacherGrading.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TeacherMain.resx">
+      <DependentUpon>TeacherMain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TeacherSplit2StransferStudents.resx">
+      <DependentUpon>TeacherSplit2StransferStudents.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TeacherSplitStrangerStudents.resx">
+      <DependentUpon>TeacherSplitStrangerStudents.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TeachersRoomSchedule.resx">
+      <DependentUpon>TeachersRoomSchedule.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TeacherStudentsINC.resx">
+      <DependentUpon>TeacherStudentsINC.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TeacherTransferStudentSched.resx">
+      <DependentUpon>TeacherTransferStudentSched.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TeacherUpdateINC.resx">
+      <DependentUpon>TeacherUpdateINC.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TeacherUpdateSched.resx">
+      <DependentUpon>TeacherUpdateSched.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TeacherUpdateTranferStudents.resx">
+      <DependentUpon>TeacherUpdateTranferStudents.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="app.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{C0C07587-41A7-46C8-8FBD-3F9C8EBE2DDC}" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
